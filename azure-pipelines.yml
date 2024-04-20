@@ -18,7 +18,7 @@ variables:
   environmentName: 'nodejsappdeploy'
 
   # Agent VM image name
-  vmImageName: 'ubuntu-latest'
+  pool: AzureVM
 
 stages:
 - stage: Build
